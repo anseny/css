@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        *{margin:0;padding:0; text-decoration: none;}
+        *{margin:0;padding:0; text-decoration: none;font-family:"微软雅黑"}
         .header{
 
             background:black;
@@ -66,25 +66,28 @@
             position:relative;
         }
         .left{
-            width:50%;
+            width:32%;
             float:left;
         }
         .right{
-            width:50%;
-            float:right;
+            width:32%;
+            float:left;
         }
         .l-c{
             text-align: left;
-            margin-left:40%;
-            width:50%;
+            margin-left:30%;
+            width:80%;
             margin-top:50px; 
             color:black;
 
         }
         .r-c{
+            margin:0 auto;
             margin-top:50px;
-            margin-left:20%;
+            /* margin-left:20%; */
             width:50%;
+            text-align:center;
+
         }
         h2,.l-c div,.r-c p{
             margin-bottom:20px;
@@ -92,6 +95,33 @@
         span{
             background:pink;
         }
+        .sub{
+            background:red;
+            color: white;
+            width: 216px;
+            height:40px;
+        }
+        .r-cc{
+            margin-top:50px;
+            margin-left:10%;
+            width:50%
+        }
+        .thin{
+            float:right;
+            width:8px;
+            height:419px;
+            background: orange;
+        }
+        .input{
+            width:35%;
+            height:419;
+            float:right;
+        }
+        .r-cc input,.r-cc botton{
+            margin-bottom:20px;
+            height:30px;
+        }
+
     </style>
 </head>
 <body>
@@ -110,11 +140,11 @@
            <div class = "left">
                <div class = "l-c">
                <h2>课程推荐</h2>
-               <div><p><span>职业路径</span>&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
-               <div><p><span>职业路径</span>&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
-               <div><p><span>职业路径</span>&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
-               <div><p><span>职业路径</span>&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
-               <div><p><span>职业路径</span>&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
+               <div><p><span>职业路径</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
+               <div><p><span>职业路径</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
+               <div><p><span>职业路径</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
+               <div><p><span>职业路径</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
+               <div><p><span>职业路径</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
                </div>
            </div>
            <div class = "right">
@@ -123,9 +153,17 @@
                    <p>html css js</p>
                    <p>html css js</p>
                    <p>html css js</p>
-
+                </div>
                </div>
-           </div>
+               <div class = "input">
+               <div class="r-cc">
+                   <h2>登陆</h2>
+                   <input type="text" value = ""  size = "30" placeholder="请输入邮箱/手机号"  ><br/>
+                   <input type="psaaword" value = "" size = "30" placeholder = "6-16位密码，区分大小写，不能用空格">
+                   <div><button type = "submit" class = "sub">登陆</button></div>
+               </div>
+               </div>
+               <div class = "thin"></div>
        </div>
         <div class = "footer">
             <ul class="uls2">
