@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0; text-decoration: none;font-family:"微软雅黑"}
+        html,body{height:100%;overflow:hidden;}
+        body{min-width:700px;}
+        /* 页头 */
+        .header{
+
+            background:black;
+            width:100%;
+            height:80px;
+            overflow: hidden;
+            position:fixed;
+            top:0;
+        }
+        /* logo */
+         .imge{
+            float:left;
+            width:300px;
+            height:80px;
+        }
+        /* 头部导航 */
+        .uls{
+            width:43%;
+            height:80px;
+            float:right;
+            overflow: hidden;
+            line-height:80px;
+            text-align: center;
+        }
+        .uls li{
+            color: white;
+            list-style-type: none;
+            /* float:left; */
+            display:inline-block;
+            font-size:18px;
+            margin:0 30px;
+        }
+        /* 页脚 */
+        .footer{
+            background:black;
+            position:fixed;
+            bottom:0px;
+            width:100%;
+            height:80px;
+            overflow:hidden;    
+        }
+        /* 页脚导航 */
+        .uls2{
+            line-height:80px;
+            color:white;
+            font-size:15px;
+            width:100%;
+            height:80px;
+            margin-right:25%;
+            text-align: center;
+        }
+        .uls2 li{
+            /* float:left; */
+            display:inline-block;
+            margin:0 20px;
+            list-style: none;
+        }
+        /* 内容部分 */
+        .container{
+            height:100%;
+            margin-top:80px;
+            margin-bottom:80px;
+            overflow:hidden;
+            /* position:relative; */
+            padding:0 300px 0 320px;
+        }
+   
+        .left,.mid,.input{
+            float:left;
+            position:relative;
+        }
+         /* 左边内容 */
+        .left{
+            width:320px;
+            height:100%;
+            background:#ffefdb;
+            margin-left:-100%;
+            left:-320px;
+        }
+        /* 中间内容 */
+        .mid{
+            width:100%;
+            height:100%;
+            background: #ffc0cb;
+        }
+        /* 左边文字 */
+        .l-c{
+            text-align: left;
+        
+            width:80%;
+            margin:10% auto 0 auto;  
+            color:black;
+
+        }
+        /* 中间文字 */
+        .m-c{
+            margin:0 auto;
+            margin-top:50px;
+            /* margin-left:20%; */
+            width:50%;
+            text-align:center;
+
+        }
+        .imge2{
+            width:100%;
+            height:100%;
+        }
+
+        h2,.l-c div,.r-c p{
+            margin-bottom:20px;
+        }
+        span{
+            background:pink;
+        }
+        /* 登陆按钮 */
+        .sub{
+            background:red;
+            color: white;
+            width: 216px;
+            height:40px;
+        }
+        /* 右边内容 */    
+        .input{
+            width:300px;
+            height:100%;
+            background: #add8e6;
+            margin-left:-300px;
+            left:300px;
+        }
+        .r-cc{
+            margin-top:50px;
+            margin-left:10%;
+            width:50%
+        }        
+
+        .r-cc input,.r-cc botton{
+            margin-bottom:20px;
+            height:30px;
+        }
+
+    </style>
+</head>
+<body>
+    <body>
+        <div class = "header">
+            <div ><img class ="imge" src="http://climg.mukewang.com/58c0d2d900016ce303000100.png" alt=""></div>
+            <ul class="uls">
+                <li>课程</li>
+                <li>职业路径</li>
+                <li>猿问</li>
+                <li>手记</li>
+                <li class ="li0">实战</li>
+            </ul> 
+        </div>
+       <div class = "container">
+           <div class = "mid">
+               <div class = "m-c">
+                   <img class = "imge2" src="http://climg.mukewang.com/590037e00001fab706000400.jpg
+
+                   " alt="">
+                </div>
+               </div>
+           <div class = "left">
+               <div class = "l-c">
+               <h2>课程推荐</h2>
+               <div><p><span>职业路径</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
+               <div><p><span>职业路径</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
+               <div><p><span>职业路径</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
+               <div><p><span>职业路径</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
+               <div><p><span>职业路径</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">HTML5与CSS3实现动态网页</a></p></div>
+               </div>
+           </div>
+
+            <div class = "input">
+               <div class="r-cc">
+                   <h2>登陆</h2>
+                   <input type="text" value = ""  size = "30" placeholder="请输入邮箱/手机号"  ><br/>
+                   <input type="psaaword" value = "" size = "30" placeholder = "6-16位密码，区分大小写，不能用空格">
+                   <div><button type = "submit" class = "sub">登陆</button></div>
+               </div>
+            </div>
+       </div>
+        <div class = "footer">
+            <ul class="uls2">
+                <li>网站首页</li>
+                <li>企业合作</li>
+                <li>人才招聘</li>
+                <li>练习我们</li>
+                <li>常见问题</li>
+                <li>友情链接</li>
+            </ul>
+        </div>
+
+</body>
+</html>
