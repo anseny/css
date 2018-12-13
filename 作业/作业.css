@@ -8,6 +8,7 @@ html,body{position: relative;}
     overflow:hidden;
     position:fixed;
     top:0px;
+    z-index: 9999;
 }
 .header img{
     /* height:50px;
@@ -112,4 +113,24 @@ textarea{
 }
 .banner .banner_input button:hover{
     background: #07cbc9;
+}
+.container .about{
+    width:364px;
+    margin:0 auto;
+    text-align: center;
+}
+.container .about hr{
+    width:30px;
+    border:1px solid #07cbc9;
+    margin:0 auto;
+    margin-bottom:5px;
+}
+.container p{
+    padding-bottom:5px;
+}
+.container .about .aboutp1{
+    font-size:24px;
+    font-weight:bold;
+    padding-bottom:5px;
+    padding-top:30px;
 }
