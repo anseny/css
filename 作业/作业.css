@@ -119,6 +119,7 @@ textarea{
 }
 .banner .banner_input button:hover{
     background: #07cbc9;
+    border:none;
 }
 /* about部分顶部文字 */
 .container .about{
@@ -220,6 +221,7 @@ button{
 button:hover{
     background: white;
     color:black;
+    border:1px black solid;
 }  
 /* about底部图片部分     */
 .aboutCont{
